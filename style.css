@@ -1,0 +1,374 @@
+/* pallet of colors #5DFDCB aquamarine, #A6A6A8 quicksilver, white */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5DFDCB;
+}
+/* big screens */
+/* div of content */
+        #matter-div{
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.96);
+            width: 50vw;
+            height: 70vh;
+            margin: 10px;
+            margin-top: 50px;
+            top: 30px;
+            left: 25vw;
+            border-radius: 5%;
+            box-shadow: -2px 5px 5px  #05386B;
+            /* background-color: #edf5e1; */
+        }
+        /* div text */
+        #txt-div{
+            position: absolute;
+            margin: 3px;
+            padding: 5px;
+            width: 100%;
+            height: 100%;
+        }
+        #txt-div h1{
+            margin-top: 5px;
+            color: #8EE4AF;
+            text-shadow: 1px 1px rgb(36, 33, 33), 1px 1px#05386B, 1px 1px #05386B ; 
+            text-align: center;
+            margin-bottom: 50px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+          
+        }
+        #txt-div p {
+        color: #A6A6A8;
+        text-shadow: 1px 1px rgba(0, 0, 0, 0.638), 1px 1px#05386B, 1px 1px #05386B ; 
+        text-align: center;
+        margin-bottom: 5px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding: 5px;
+        }
+        #txt-div a {
+            text-decoration: none;
+            color: #A6A6A8;
+        }
+        /* button */
+        #btn-1{
+            /* border: 1px solid red; */
+            position: absolute;
+            top: 80%;
+            left: 300px;
+            width: 100px;
+            height: 40px;
+        }
+        .button{
+            background-color: #5CDB95; 
+            border-radius: 15px;
+            width: 100%;
+            height: 100%;
+            color: #4E4E50;
+            font-size: 1.2em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: auto;
+            text-align: center;
+            display: inline-block;
+            border-color: #5CDB95;
+        }
+        /* pag2 select mbti */
+   /* pag2 mbti select */
+
+    /* form style */
+    .form{
+        top: 10vh;
+        left: 20vw;
+        position: absolute;
+    }
+   
+    .form select{
+       background-color:#A6A6A8;
+       border-radius: 6px;
+       border: 2px solid #5DFDCB;
+       font-size: 1.2em;
+       text-align: center;
+        width: 120px;
+   }
+   .form option {
+       text-align: center;
+       font-size: 0.80em;
+   }
+   /* text in page 2 */
+   #txt-div-2{
+       position: absolute;
+       width: 400px;
+       height: 300px;
+       top: 15vh;
+       left: 4vw;
+   }
+   #txt-div-2 p {
+    color:rgba(0, 0, 0, 0.289);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7em;
+    text-shadow:1px 1px #A6A6A8;
+   }
+   #btn-2{
+       position: absolute;
+       top: 50vh;
+       left: 19vw;
+       width: 250px;
+    }
+    .button-2{
+        background-color: #5CDB95; 
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+        color: #4E4E50;
+        font-size: 1.2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        border-color: #5CDB95;
+
+    }
+    /* indications */
+    /* reading */
+    #matter-div-read{
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.96);
+            width: 40vw;
+            height: 90vh;
+            margin: 10px;
+            margin-top: 10px;
+            top: 30px;
+            left: 30vw;
+            border-radius: 5%;
+            box-shadow: -2px 5px 5px  #05386B;
+        }
+
+img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.638);
+    top: 5vh;
+    left: 10vw;
+    right: 10vw;
+    width: 300px;
+    position: absolute;
+    /* display: none; */
+}
+#txt-div-read{
+    top: 40vh;
+    /* background-color: red; */
+    position: absolute;
+    margin: 3px;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#txt-div-read h1{
+    color: #5DFDCB;
+    text-shadow: 1px 1px rgb(36, 33, 33), 1px 1px#05386B, 1px 1px #05386B ; 
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#txt-div-read p {
+    color:rgba(0, 0, 0, 0.289);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-shadow:1px 1px #000000;
+
+}
+
+#txt-div-read a{
+    text-decoration: none;
+    color: #000000 ;
+
+}
+
+
+/* small screens */
+@media only screen and (max-width: 450px) {
+
+    /* div of the content */
+    #matter-div{ 
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.96);
+        width: 80vw;
+        height: 80vh;
+        margin-top: 50px;
+        margin: 10px;
+        top: 20px;
+        left: 32px;
+        border-radius: 5%;
+        box-shadow: -2px 5px 5px  #05386B;
+        /* background-color: #edf5e1; */
+    }
+    /* div text */
+    #txt-div{
+        position: absolute;
+        margin: 3px;
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+    }
+    #txt-div h1{
+        color: #8EE4AF;
+        text-shadow: 1px 1px rgb(36, 33, 33), 1px 1px#05386B, 1px 1px #05386B ; 
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    }
+    #txt-div p {
+        color:rgba(0, 0, 0, 0.289);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 18px;
+        text-shadow:1px 1px #A6A6A8;
+        padding: 10px;
+    }
+
+    #txt-div a{
+        text-decoration: none;
+        color: #A6A6A8 ;
+    }
+    /* button */
+    #btn-1{
+        border: 1px solid red;
+        position: absolute;
+        top: 88%;
+        left: 25%;
+        width: 150px;
+        height: 30px;
+        text-decoration: none;
+    }
+    .button{
+        background-color: #5CDB95; 
+        border-radius: 15px;
+        height: 50px;
+        color: #4E4E50;
+        font-size: 1.3em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-color: #5CDB95;
+    }
+    /* pag2 mbti select */
+
+    /* form style */
+    .form{
+        top: 20vh;
+        left: 28vw;
+        position: absolute;
+    }
+   
+    .form select{
+       background-color:#A6A6A8;
+       border-radius: 6px;
+       border: 2px solid #5DFDCB;
+       font-size: 1.2em;
+       text-align: center;
+        width: 100px;
+   }
+   .form option {
+       text-align: center;
+       font-size: 0.80em;
+   }
+   /* text in page 2 */
+   #txt-div-2{
+       /* background-color: red; */
+       position: absolute;
+       width: 250px;
+       height: 300px;
+       top: 30vh;
+       left: 10vw;
+   }
+   #txt-div-2 p {
+    color:rgba(0, 0, 0, 0.289);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-shadow:1px 1px #A6A6A8;
+    margin-bottom: 70px;
+   }
+   #btn-2{
+       position: absolute;
+       top: 70vh;
+       left: 30vw;
+       width: 100px;
+    }
+    .button-2{
+        background-color: #5CDB95; 
+        border-radius: 15px;
+        height: 50px;
+        color: #4E4E50;
+        font-size: 1.3em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 100%;
+        text-align: center;
+        display: block;
+        border-color: #5CDB95;
+    }
+    
+    /* indications */
+    
+    /* reading */
+            #matter-div-read{
+                position: relative;
+                background-color: rgba(255, 255, 255, 0.96);
+                width: 80vw;
+                height: 90vh;
+                margin: 10px;
+                top: 20px;
+                left: 32px;
+                border-radius: 5%;
+              box-shadow: -2px 5px 5px  #05386B;
+                /* background-color: #edf5e1; */
+                display: inline-block;
+                }
+        
+        img{
+            border-radius: 5px;
+            box-shadow: 5px 5px 3px  rgba(0, 0, 0, 0.638);
+            left: 5vw;
+            margin: 20px;
+            width: 250px;
+            position: absolute;
+            /* display: none; */
+        }
+        #txt-div-read{
+            top: 30vh;
+            /* background-color: red; */
+            position: absolute;
+            margin: 3px;
+            padding: 5px;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #txt-div-read h1{
+            color: #8EE4AF;
+            text-shadow: 1px 1px rgb(36, 33, 33), 1px 1px#05386B, 1px 1px #05386B ; 
+            text-align: center;
+            margin-bottom: 50px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        #txt-div-read p {
+            color:rgba(0, 0, 0, 0.289);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+            text-shadow:1px 1px #000000;
+
+        }
+
+        #txt-div-read a{
+            text-decoration: none;
+            color: #000000 ;
+        
+}
+}
