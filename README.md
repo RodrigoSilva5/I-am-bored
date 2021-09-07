@@ -4,11 +4,11 @@ Is a website that indicates which is the best habit, or thing to do as if you ar
 
 
 ## Mobile
-![]()
+![gif-demo-mobile](./Documentation/mobile.gif)
 
 
 ## Big screens
-![]()
+![gif-demo-desktop](./Documentation/desktop.gif)
 
 ### Installation
 You can clone my repository, and open in your favorite code editor
